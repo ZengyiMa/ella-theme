@@ -1,0 +1,41 @@
+
+
+body, h1, h2, h3, h4, h5, h6, p, figure, pre, dl, dd, blockquote, button, input {
+   margin: 0;
+}
+
+
+.md-sidenav .md-sidenav-content {
+    width: 240px;
+}
+
+.md-avatar.md-large{
+    height: 80px;
+    width: 80px;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 50%;
+}
+
+.left-drawer-header {
+    background-image: url(https://www.imys.net/img/brand.jpg);
+    background-size: 100% 100%;
+}
+
+.left-drawer-info {
+    padding: 40px 20px;
+}
+
+
+
+.left-drawer-name
+{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.left-drawer-desc {
+    color: #c5cae9;
+    font-size: 13px;    
+}
