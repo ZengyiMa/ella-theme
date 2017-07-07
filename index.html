@@ -1,71 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
-   <!--<script src="http://cdn.bootcss.com/vue/2.3.4/vue.min.js"></script>-->
-    <script src="http://cdn.bootcss.com/vue/2.3.4/vue.js"></script>
-    <link rel="stylesheet" href="dist/vue-material.css">
-    <script src="dist/vue-material.js"></script>
-    <link href="css/index.css" rel="stylesheet">
-  </head>
-  <body>
 
-<div id="app">
+<head>
+  <meta charset="UTF-8">
+  <link href="http://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+  <!--<script src="http://cdn.bootcss.com/vue/2.3.4/vue.min.js"></script>-->
+  <script src="http://cdn.bootcss.com/vue/2.3.4/vue.js"></script>
+  <link rel="stylesheet" href="dist/vue-material.css">
+  <script src="dist/vue-material.js"></script>
+  <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="app">
     <!--顶部bar-->
-  <md-toolbar>
-    <md-button class="md-icon-button" @click="toggleLeftSidenav">
-      <md-icon>menu</md-icon>
-    </md-button>
-  </md-toolbar>
+    <md-toolbar class="md-large">
+      <div class="md-toolbar-container">
 
-<!--导航栏-->
-  <md-sidenav class="md-left" ref="leftSidenav" @open="open('Left')" @close="close('Left')">
-    <div class="left-drawer-header"> 
-      <div class="left-drawer-info">
-        <md-avatar class="md-large">
-          <img src="http://7xswwv.com1.z0.glb.clouddn.com/IMG_1677.JPG" alt="People"> 
-                <md-ink-ripple />       
-        </md-avatar>
+        <md-button class="md-icon-button" @click="toggleLeftSidenav">
+          <md-icon>menu</md-icon>
+        </md-button>
+
+        <span style="flex: 1;"></span>
+        <md-button class="md-icon-button">
+          <md-icon>filter_list</md-icon>
+        </md-button>
+      </div>
+
+
+      <div style="margin: 59px;">
+        <h1 style="font-size: 44px;line-height: 48px;">mazengyi的博客</h1> 
+      </div>
+
+
+    </md-toolbar>
+
+    <md-list>
+        <md-list-item>
+                   <div style="min-height: 100px;"></div>
+
+          <md-ink-ripple />
+        </md-list-item>
+
+        <md-list-item>
+                   <div style="min-height: 100px;"></div>
+
+          <md-ink-ripple />
+        </md-list-item>
+
+        <md-list-item>
+                   <div style="min-height: 100px;"></div>
+          <md-ink-ripple />
+        </md-list-item>
+      </md-list>
+
+
+
+
+
+
+
+    <!--导航栏-->
+    <md-sidenav class="md-left" ref="leftSidenav" @open="open('Left')" @close="close('Left')">
+      <div class="left-drawer-header">
+        <div class="left-drawer-info">
+          <md-avatar class="md-large">
+            <img src="http://7xswwv.com1.z0.glb.clouddn.com/IMG_1677.JPG" alt="People">
+            <md-ink-ripple />
+          </md-avatar>
           <h5 class="left-drawer-name">
-           马增翼的博客
+            马增翼的博客
           </h5>
           <h5 class="left-drawer-desc">
-          8998509798@qq.com
+            8998509798@qq.com
           </h5>
+        </div>
       </div>
-    </div>
 
- <md-list>
-    <md-list-item>
-      <md-icon>move_to_inbox</md-icon> <span>文章</span>
-      <md-ink-ripple />
-    </md-list-item>
+      <md-list>
+        <md-list-item>
+          <md-icon>move_to_inbox</md-icon> <span>文章</span>
+          <md-ink-ripple />
+        </md-list-item>
 
-    <md-list-item>
-      <md-icon>send</md-icon> <span>作品</span>
-       <md-ink-ripple />
-    </md-list-item>
+        <md-list-item>
+          <md-icon>send</md-icon> <span>作品</span>
+          <md-ink-ripple />
+        </md-list-item>
 
-    <md-list-item>
-      <md-icon>delete</md-icon> <span>关于</span>
-       <md-ink-ripple />
-    </md-list-item>
- </md-list>
+        <md-list-item>
+          <md-icon>delete</md-icon> <span>关于</span>
+          <md-ink-ripple />
+        </md-list-item>
+      </md-list>
 
-  </md-sidenav>
+    </md-sidenav>
 
-</div>
-    <script>
+  </div>
+  <script>
     Vue.use(VueMaterial)
     var App = new Vue({
-    el: '#app',
-    methods: {
-    toggleLeftSidenav() {
-      this.$refs.leftSidenav.toggle();
-    },
-  }
+      el: '#app',
+      methods: {
+        toggleLeftSidenav() {
+          this.$refs.leftSidenav.toggle();
+        },
+      }
     })
+  </script>
+</body>
 
-    </script>
-  </body>
 </html>
