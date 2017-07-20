@@ -2,8 +2,156 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed36a53b-a142-4c94-8de7-49ac1ac54081" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vue/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vuetify/vuetify.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vuetify/vuetify.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vuetify/vuetify.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdAvatar/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdAvatar/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdAvatar/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdAvatar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBackdrop/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBackdrop/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBackdrop/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBackdrop/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBottomBar/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBottomBar/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBottomBar/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdBottomBar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButton/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButton/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButton/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButton/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButtonToggle/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButtonToggle/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButtonToggle/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdButtonToggle/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCard/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCard/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCard/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCard/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCheckbox/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCheckbox/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCheckbox/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCheckbox/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdChips/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdChips/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdChips/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdChips/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCore/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCore/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCore/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdCore/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDialog/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDialog/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDialog/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDialog/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDivider/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDivider/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDivider/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdDivider/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdFile/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdFile/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdFile/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdFile/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdIcon/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdIcon/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdIcon/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdIcon/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdImage/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdImage/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdImage/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdImage/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdInputContainer/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdInputContainer/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdInputContainer/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdInputContainer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdLayout/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdLayout/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdLayout/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdLayout/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdList/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdList/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdList/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdList/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdMenu/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdMenu/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdMenu/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdMenu/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdOnboarding/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdOnboarding/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdOnboarding/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdOnboarding/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdProgress/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdProgress/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdProgress/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdProgress/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRadio/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRadio/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRadio/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRadio/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRatingBar/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRatingBar/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRatingBar/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdRatingBar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSelect/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSelect/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSelect/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSelect/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSidenav/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSidenav/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSidenav/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSidenav/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSnackbar/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSnackbar/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSnackbar/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSnackbar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpeedDial/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpeedDial/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpeedDial/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpeedDial/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpinner/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpinner/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpinner/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSpinner/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdStepper/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdStepper/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdStepper/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdStepper/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSubheader/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSubheader/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSubheader/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSubheader/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSwitch/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSwitch/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSwitch/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdSwitch/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTable/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTable/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTable/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTable/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTabs/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTabs/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTabs/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTabs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdToolbar/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdToolbar/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdToolbar/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdToolbar/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTooltip/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTooltip/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTooltip/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdTooltip/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdWhiteframe/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdWhiteframe/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdWhiteframe/index.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/mdWhiteframe/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vue-material.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/vue-material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/post.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,22 +165,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="511">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page/post.html">
+      <file leaf-file-name="vuetify.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/vuetify/vuetify.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="236">
+              <caret line="5" column="26747" lean-forward="false" selection-start-line="5" selection-start-column="26742" selection-end-line="5" selection-end-column="26747" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +196,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>light</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -53,11 +208,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/page/post.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -98,7 +261,19 @@
             <path>
               <item name="ella-theme" type="b2602c69:ProjectViewProjectNode" />
               <item name="ella-theme" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ella-theme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ella-theme" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ella-theme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ella-theme" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="vuetify" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -115,6 +290,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="add_unversioned_files" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/vue" />
+      <recent name="$PROJECT_DIR$/dist/vuetify" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -127,8 +309,19 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ella-theme/index.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -137,12 +330,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500565389091</updated>
-      <workItem from="1500565391013" duration="154000" />
+      <workItem from="1500565391013" duration="4073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154000" />
+    <option name="totallyTimeSpent" value="4073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="1359" height="877" extended-state="0" />
@@ -177,14 +370,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -195,8 +380,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="285">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/vuetify/vuetify.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="5" column="26747" lean-forward="false" selection-start-line="5" selection-start-column="26742" selection-end-line="5" selection-end-column="26747" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
